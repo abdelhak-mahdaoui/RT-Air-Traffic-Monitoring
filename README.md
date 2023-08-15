@@ -7,3 +7,6 @@
 • Data processing: normalization, delay detection, aggregation by region, airport, etc.
 
 • Visualization: Kibana Dashboard.
+
+Note: This project was made in collaboration with [Jamal Ouhssini](https://www.linkedin.com/in/jamal-ouhssini-089559181/).
+
