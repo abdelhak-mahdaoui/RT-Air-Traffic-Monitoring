@@ -1,0 +1,6 @@
+[2023-08-15 02:31:47,278] INFO Expiring session 0x1000002f3c80003, timeout of 18000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-08-15 02:31:51,910] INFO Invalid session 0x1000002f3c80000 for client /127.0.0.1:39444, probably expired (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-08-15 02:31:49,035] INFO Invalid session 0x1000002f3c80002 for client /127.0.0.1:39448, probably expired (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-08-15 02:31:47,316] INFO Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:51570, session = 0x1000002f3c80003 (org.apache.zookeeper.server.NIOServerCnxn)
+[2023-08-15 02:33:30,534] WARN CancelledKeyException causing close of session: 0x1000002f3c80000 (org.apache.zookeeper.server.NIOServerCnxn)
+[2023-08-15 02:34:05,754] WARN CancelledKeyException causing close of session: 0x1000002f3c80002 (org.apache.zookeeper.server.NIOServerCnxn)

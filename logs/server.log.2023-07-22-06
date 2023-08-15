@@ -1,0 +1,13 @@
+[2023-07-22 10:14:57,101] INFO [GroupCoordinator 1]: Preparing to rebalance group console-consumer-76987 in state PreparingRebalance with old generation 1 (__consumer_offsets-38) (reason: Removing member console-consumer-0eda6e9f-204f-4930-b4f3-89408f8adfc7 on LeaveGroup; client reason: the consumer is being closed) (kafka.coordinator.group.GroupCoordinator)
+[2023-07-22 10:14:57,283] INFO [GroupCoordinator 1]: Group console-consumer-76987 with generation 2 is now empty (__consumer_offsets-38) (kafka.coordinator.group.GroupCoordinator)
+[2023-07-22 10:14:57,719] INFO [GroupCoordinator 1]: Member MemberMetadata(memberId=console-consumer-0eda6e9f-204f-4930-b4f3-89408f8adfc7, groupInstanceId=None, clientId=console-consumer, clientHost=/127.0.0.1, sessionTimeoutMs=45000, rebalanceTimeoutMs=300000, supportedProtocols=List(range, cooperative-sticky)) has left group console-consumer-76987 through explicit `LeaveGroup`; client reason: the consumer is being closed (kafka.coordinator.group.GroupCoordinator)
+[2023-07-22 10:22:25,011] INFO [GroupMetadataManager brokerId=1] Group console-consumer-76987 transitioned to Dead in generation 2 (kafka.coordinator.group.GroupMetadataManager)
+[2023-07-22 10:50:51,971] INFO Terminating process due to signal SIGHUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2023-07-22 10:50:51,971] INFO Terminating process due to signal SIGHUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2023-07-22 10:50:55,457] INFO [KafkaServer id=1] shutting down (kafka.server.KafkaServer)
+[2023-07-22 10:50:56,244] WARN Session 0x1000134f8280001 for server localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException. (org.apache.zookeeper.ClientCnxn)
+EndOfStreamException: Unable to read additional data from server sessionid 0x1000134f8280001, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:77)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1293)
+[2023-07-22 10:50:56,858] INFO [KafkaServer id=1] Starting controlled shutdown (kafka.server.KafkaServer)

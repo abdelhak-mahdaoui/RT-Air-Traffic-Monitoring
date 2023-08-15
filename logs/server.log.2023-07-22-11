@@ -1,0 +1,15 @@
+[2023-07-23 01:23:21,539] WARN Client session timed out, have not heard from server in 13269ms for session id 0x1000002f3c80000 (org.apache.zookeeper.ClientCnxn)
+[2023-07-23 01:23:21,959] WARN Session 0x1000002f3c80000 for server localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException. (org.apache.zookeeper.ClientCnxn)
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 13269ms for session id 0x1000002f3c80000
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1261)
+[2023-07-23 01:23:24,363] INFO Opening socket connection to server localhost/127.0.0.1:2181. (org.apache.zookeeper.ClientCnxn)
+[2023-07-23 01:23:24,381] INFO Socket connection established, initiating session, client: /127.0.0.1:51522, server: localhost/127.0.0.1:2181 (org.apache.zookeeper.ClientCnxn)
+[2023-07-23 01:23:25,064] INFO Session establishment complete on server localhost/127.0.0.1:2181, session id = 0x1000002f3c80000, negotiated timeout = 18000 (org.apache.zookeeper.ClientCnxn)
+[2023-07-23 01:23:28,362] INFO [Controller id=0, targetBrokerId=0] Node 0 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2023-07-23 01:23:28,370] INFO [Controller id=0, targetBrokerId=2] Node 2 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2023-07-23 01:38:11,912] WARN Client session timed out, have not heard from server in 12161ms for session id 0x1000002f3c80000 (org.apache.zookeeper.ClientCnxn)
+[2023-07-23 01:38:18,072] WARN Session 0x1000002f3c80000 for server localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException. (org.apache.zookeeper.ClientCnxn)
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 12161ms for session id 0x1000002f3c80000
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1261)
+[2023-07-23 01:38:31,241] INFO Opening socket connection to server localhost/127.0.0.1:2181. (org.apache.zookeeper.ClientCnxn)
+[2023-07-23 01:38:32,422] INFO Socket connection established, initiating session, client: /127.0.0.1:39444, server: localhost/127.0.0.1:2181 (org.apache.zookeeper.ClientCnxn)

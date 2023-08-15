@@ -1,0 +1,7 @@
+,timestamp,max_speed,min_speed,max_flag,min_flag,max_airport_dep,min_airport_dep,max_airport_arr,min_airport_arr,max_altitude,min_altitude,max_vt_speed,min_vt_speed,max_status,min_status
+0,2023-07-22 06:59:01.631,1005.0,7.0,MA,MA,CMN,JFK,CMN,JED,0.0,2278.0,0.0,1.0,en-route,en-route
+0,2023-07-22 06:59:11.217,1005.0,7.0,MA,MA,CMN,JFK,CMN,JED,0.0,2278.0,0.0,1.0,en-route,en-route
+,timestamp,max_speed,min_speed,max_flag,min_flag,max_airport_dep,min_airport_dep,max_airport_arr,min_airport_arr,max_altitude,min_altitude,max_vt_speed,min_vt_speed,max_status,min_status
+0,2023-07-22 10:17:29.074,1003.0,5.0,MA,MA,CMN,LAD,CMN,JFK,10972.0,0.0,0.0,-0.7,en-route,en-route
+0,2023-07-22 10:17:37.223,1003.0,5.0,MA,MA,CMN,LAD,CMN,JFK,10972.0,0.0,0.0,-0.7,en-route,en-route
+0,2023-07-22 10:17:46.189,1003.0,5.0,MA,MA,CMN,LAD,CMN,JFK,10972.0,0.0,0.0,-6.2,en-route,en-route
